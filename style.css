@@ -12,7 +12,7 @@ body{
     align-items: center;
     height: 60px;
     font-weight: bold;
-    padding: 0px 150px;
+    padding: 0px 20%;
 }
 
 .logo{
@@ -32,17 +32,17 @@ ul{
 .section1{
     height: 500px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
     color: white;
     margin: 0;
-    padding: 0px 150px;
+    padding: 0px 20%;
 }
 
 .big-text{
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     margin: 0;
 }
 
@@ -50,27 +50,31 @@ ul{
     font-size: 18px;
 }
 
-button{
+.button1{
     background-color: #3882f6;
     color: white;
     border: none;
     border-radius: 7px;
     width: 100px;
     height: 25px;
+    margin-top: 20px;
 }
 
-.large-image{
-    display: flex;
-    justify-content: flex-end;
+
+
+.limage{
+    flex-shrink: 5;
     width: 500px;
-    height: 250px;
+    height: 300px;
     object-fit: cover;
+    align-self: center;
+    border-radius: 10px;
 }
 
 
 .section2{
-    height: 500px;
-    padding: 0px 150px;
+    min-height: 500px;
+    padding: 0px 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -108,8 +112,8 @@ button{
     font-weight: 300;
     font-style: italic;
     background-color: #e5e7eb;
-    padding: 150px;
-}
+    padding: 150px 20%;
+} 
 .thor{
     display: flex;
     justify-content: flex-end;
@@ -149,7 +153,12 @@ button{
 
 .button2{
     border: 2px solid white;
-
+    background-color: #3882f6;
+    color: white;
+    border-radius: 7px;
+    width: 100px;
+    height: 25px;
+    margin-top: 20px;
 }
 .footer{
     background-color: #1F2937;
